@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+img {
+    padding-top: 70px;
+    width: 40%;
+    transition: transform .2s;
+    display:block;
+    margin:auto;
+    
+}
+
+img:hover {
+    transform: scale(1.5);
+    -webkit-filter: drop-shadow(1px 1px 12px #ffffff);
+    filter: drop-shadow(1px 1px 12px #FFFFFF);
+
+}
+
+img:active {
+    transform: scale(1.2);
+}
+
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.name {
+    border-bottom: 1px solid white;
+    transition: transform .2s;
+}
+
+

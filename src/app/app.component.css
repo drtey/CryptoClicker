@@ -1,0 +1,40 @@
+
+.row, .container, .div, .col-sm{
+    background: url("../assets/fondo.png") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   border: 1px solid #42C5A2;
+}
+
+div {
+    background-color: black;
+}
+
+#stats {
+    padding-top: 50px;
+}
+
+#divup {
+    border-top: 4px solid #42C5A2;
+    border-left: 4px solid #42C5A2;
+    border-right: 4px solid #42C5A2;
+}
+
+#divleft {
+    border-left: 2px solid #42C5A2;
+    border-right: 3px solid #42C5A2;
+    border-bottom: 2px solid #42C5A2;
+}
+
+#divmid {
+    border-right: 3px solid #42C5A2;
+    border-bottom: 2px solid #42C5A2;
+}
+
+#divright{
+    border-right: 2px solid #42C5A2;
+    border-bottom: 2px solid #42C5A2;
+}
+

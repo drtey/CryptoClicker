@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    text-align: start;
+    
+    font-family: 'Roboto Mono', monospace;
+    color: #FFFFFF;
+}
+
+img {
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display:block;
+    margin:auto;
+    transition: transform .2s;
+    
+}
+
+#graphics {
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display:block;
+    margin:auto;
+    transition: transform .2s;
+    filter: var(change);
+}
+
+#rigs {
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display:block;
+    margin:auto;
+    transition: transform .2s;
+    filter: brightness(0.3);
+}
+
+#farms {
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display:block;
+    margin:auto;
+    transition: transform .2s;
+    filter: brightness(0.3);
+}
+
+img:hover {
+    transform: scale(1.4);
+    
+}
+
+img:active {
+    transform: scale(1.2);
+}
+
+.name {
+    border-bottom: 1px solid white;
+    transition: transform .2s;
+}
+
+#card {
+    padding-top: 10px;
+}
+
+#rig {
+    padding-top: 20px;
+}
